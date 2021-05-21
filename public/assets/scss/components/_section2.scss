@@ -1,0 +1,47 @@
+.section2{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    .illustration{
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+    .section{
+        &.--title{
+            margin-bottom: 4.8rem;
+        }
+    }
+    .steps{
+        .step{
+            padding-left: 4.8rem;
+            margin-bottom: 3.2rem;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .title{
+                h3{
+                    font-size: 1.8rem;
+                    position: relative;
+                    &::before{
+                        content: attr(data-aria);
+                        margin-top: 0.2rem;
+                        position: absolute;
+                        left: -4.8rem;
+                        background: #EBC3C3;
+                        padding:0.2rem 1.2rem;
+                        border-radius: 4rem;
+                        font-size: 1.4rem;
+                        line-height: 1.4rem;
+                        font-weight: 700;
+                    }
+                }
+                span{
+                    display: block;
+                    font-size: 1.6rem;
+                    line-height: 2.8rem;
+                }
+            }
+        }
+    }
+}

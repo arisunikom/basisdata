@@ -1,0 +1,26 @@
+.section5{
+    padding-top: 7.2rem;
+    padding-bottom: 9.6rem;
+    .ads{
+        padding: 0 6rem;
+        border-radius: 1.6rem;
+        background: #fafafa;
+        background: url(../../assets/image/goods.jpg) center center;
+        background-size: cover;
+        min-height: 36.2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .title{
+            h2{
+                color: #fff;
+                letter-spacing: 0.75px;
+            }
+            span{
+                color: #fff;
+                letter-spacing: 0.75px;
+                margin-bottom: 2.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #ffffff;
+    font-family: 'lato', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #273348;
+    font-weight: 700;
+}
+.row{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: .6rem;
+    font-size: 1.4rem;
+    &.--md{
+        padding: 1.2rem 2.4rem;
+    }
+    &.--black{
+        background: #2F2E2E;
+        color: #f4f5f6;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &.--white{
+        background: #fff;
+        color: #2F2E2E;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &.--red{
+        background: #BB3535;
+        color: #fff;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &.--cta{
+        font-weight: 700;
+        letter-spacing: 0.075rem;
+    }
+}
+
+.--title{
+    h2{
+        font-size: 3.2rem;
+        line-height: 4.0rem;
+        margin-bottom: 1.2rem;
+    }
+    p{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+.--title-sub{
+    h3{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-bottom: .8rem;
+    }
+    span{
+        font-size: 1.6rem;
+        line-height: 2.4rem;    
+    }
+}
+.--title, .--title-sub{
+    h2, h3{
+        color: #273348;
+    }
+    p, span{
+        display: block;
+        opacity: 0.7;
+        margin-bottom: 0;
+    }
+}
+.container{
+    max-width: 1200px;
+}
+
+a{
+    color: #BB3535;
+    text-decoration: none;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+@import 'components/navbar';
+@import 'components/section1';
+@import 'components/section2';
+@import 'components/section3';
+@import 'components/section5';
+@import 'components/footer';

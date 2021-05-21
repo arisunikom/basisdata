@@ -1,0 +1,38 @@
+.section1{
+    background: #F8F8FA;
+    padding-top: 15rem;
+    padding-bottom: 9.6rem;
+    .headline{
+        margin-bottom: 16rem;
+        .title{
+            h1{
+                font-size: 4.8rem;
+                line-height: 7.2rem;
+                font-weight: bold;
+                margin-bottom: 1.6rem;
+            }
+        }
+        .desc{
+            span{
+                display: inline-block;
+                font-size: 2.8rem;
+                line-height: 3.6rem;
+                color: #646770;
+                margin-bottom: 4.2rem;
+            }
+        }
+    }
+    .illustration{
+        text-align: right;
+        img{
+            width: 85%;
+        }
+    }    
+}
+.adventages{
+    .adventage{ 
+        border-radius: 0.6rem;
+        padding:2.0rem;
+        background: #F1F1F5;
+    }
+}
