@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6{
     &.--md{
         padding: 1.2rem 2.4rem;
     }
+    &.--sm{
+        padding: 1.2rem 2.4rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
     &.--black{
         background: #2F2E2E;
         color: #f4f5f6;
@@ -43,6 +48,13 @@ h1, h2, h3, h4, h5, h6{
     &.--red{
         background: #BB3535;
         color: #fff;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &.--red-outline{
+        border: 1.5px solid #BB3535;
+        color: #BB3535;
         &:hover{
             opacity: 0.8;
         }
@@ -98,6 +110,7 @@ a{
 }
 
 @import 'components/navbar';
+@import 'components/input-pull';
 @import 'components/section1';
 @import 'components/section2';
 @import 'components/section3';

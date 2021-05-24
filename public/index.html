@@ -87,6 +87,85 @@
             </div>
         </div>
     </section>
+    <section class="input-pull">
+        <div class="container">
+            <div class="row">
+                <div class="--title">
+                    <h2>Pesan Shuttle</h2>
+                    <p>Mulai perjalanan anda dengan shuttle kami.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form">
+                    <form action="javascript:void(0)">
+                        <div class="forminput">
+                            <div class="formsection pull-awal">
+                                <label for="pull-awal">Pull Keberangkatan</label>
+                                <select name="pull-awal" id="pull-awal">
+                                    <option value="cikini-buahbatu">Cikini - Buah Batu</option>
+                                    <option value="buahbatu-cikini">Buah Batu - Cikini</option>
+                                </select>
+                            </div>
+                            <div class="formsection pull-akhir">
+                                <label for="pull-awal">Pull Tujuan</label>
+                                <select name="pull-awal" id="pull-awal">
+                                    <option value="cikini-buahbatu">Cikini - Buah Batu</option>
+                                    <option value="buahbatu-cikini">Buah Batu - Cikini</option>
+                                </select>
+                            </div>
+                            <div class="formsection date-input">
+                                <label for="tanggalberangkat">Tanggal Berangkat</label>
+                                <input type="date" name="tanggalberangkat" id="tanggalberangkat">
+                            </div>
+                            <div class="formsection passanger">
+                                <label for="passanger">Penumpang</label>
+                                <select name="passanger" id="passanger">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                            <div class="formsection checkinput">
+                                <button id='checkketersediaan' class="btn --sm --red-outline">Cek Ketersediaan</button>
+                            </div>
+                        </div>
+                        <div class="formresult" style="display: none;">
+                            <div class="jadwal-rute">
+                                <label class="container-radio">
+                                    <span class="time">02:00</span>
+                                    <input type="radio" name="jadwal" checked="checked">
+                                    <span class="radiomark"></span>
+                                </label>
+                                <label class="container-radio">
+                                    <span class="time">08:00</span>
+                                    <input type="radio" name="jadwal">
+                                    <span class="radiomark"></span>
+                                </label>
+                                <label class="container-radio">
+                                    <span class="time">12:00</span>
+                                    <input type="radio" name="jadwal">
+                                    <span class="radiomark"></span>
+                                </label>
+                            </div>
+                            <div class="footer-result">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <span class="price">Rp.135.000,00</span>
+                                        <span>From Jakarta, Cikini to Bandung, Buah Batu is arround 4 hours</span>
+                                    </div>  
+                                    <div class="col-4 buttonsubmit">
+                                        <button class="btn --red --md">
+                                            Pesan Shuttle
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="section2">
         <div class="container">
             <div class="row align-items-center">
